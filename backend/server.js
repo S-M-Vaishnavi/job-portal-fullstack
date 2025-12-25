@@ -2,6 +2,9 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
+// ✅ IMPORT DB CONNECTION
+require("./config/db");
+
 const app = express();
 
 // Middleware
